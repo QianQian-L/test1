@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="4sgoszmUkYiZEXl4ChrT">
-    <mxGraphModel>
+    <mxGraphModel dx="1554" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-1" target="8CV5IvghZlR2zaJL6BVK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-1" target="8CV5IvghZlR2zaJL6BVK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-1" target="8CV5IvghZlR2zaJL6BVK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CLIP模型原理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-3" target="8CV5IvghZlR2zaJL6BVK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-3" target="8CV5IvghZlR2zaJL6BVK-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-3" target="8CV5IvghZlR2zaJL6BVK-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;图像编码器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="253" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-4" target="8CV5IvghZlR2zaJL6BVK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-4" target="8CV5IvghZlR2zaJL6BVK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;对比损失函数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="500" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-5" target="8CV5IvghZlR2zaJL6BVK-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-5" target="8CV5IvghZlR2zaJL6BVK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8CV5IvghZlR2zaJL6BVK-5" target="8CV5IvghZlR2zaJL6BVK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;文本编码器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-11" value="输入：图像" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="218" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-13" value="输出:图像的特征向量" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="298" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-14" value="处理：:通过一系列卷积层、池化层和全连接层提取图像特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="258" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-15" value="输入:文本描述(通常是图像的标题或描述)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="346" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-16" value="输出:文本的特征向量" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="426" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-17" value="处理:通过Transformer的多头自注意力机制和前馈神经网络处理文本" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="385" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-18" value="&lt;div&gt;功能:确保匹配的图像-文本对在特征空间中靠得更近，而不匹配的图像-文本对则&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更远&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="476" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CV5IvghZlR2zaJL6BVK-20" value="&lt;div&gt;操作:对于每个图像，从其训练集中的其他图像中随机抽取一些作为负样本，同&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;样，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;对于每个文本描述，也抽取一些不匹配的文本作为负样本。而后，使用对比&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;损失&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(如InfoNCE损失)来训练模型，使得正样本对的特征向量距离更短，负样&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;本对的特征向量距离更长。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="516" width="470" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
